@@ -108,7 +108,7 @@ FKB:
 
 ---
 
-**Very good**. You now posses the ability to gather a display large amounts of data through Web Map Servers (WMS). Norwegian data can be found here:
+**Very good**. You now posses the ability to display large amounts of data through Web Map Servers (WMS). Norwegian data can be found here:
 
 ## https://www.geonorge.no/
 
