@@ -49,7 +49,7 @@ The guide covers importing and working on several kinds of data, and join data t
 
 ## Not so short, but sweet... (2/2)
 
-Through the usage of plugins, you are able to access the continuously expanding information in the OpenStreetMap database.
+Through plugins, you are able to access the continuously expanding information in the OpenStreetMap database.
 
 You will also have learned how to make use of SSB Grid, not just as a static image to look at, but as data to count, manipulate and play with.
 
