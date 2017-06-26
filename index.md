@@ -135,7 +135,7 @@ Theory:
 ---
 
 ## Just join them
-<img src="https://i.imgur.com/HVD0U.png" style="border: none; box-shadow: none;" />
+<img src="https://fashionablygeek.com/wp-content/uploads/2010/08/keytar-platypus-590x382.jpg" style="border: none; box-shadow: none;" />
 
 ---
 
