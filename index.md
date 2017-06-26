@@ -73,8 +73,9 @@ image of what you should see. Let everyone catch up.
 
 ---
 
-<!-- .slide: data-transition="zoom" -->
-Part 1:
+<!-- .slide: data-transition="zoom" data-background="#0D1CD1" -->
+
+Part I:
 
 # Begone blank map
 
@@ -114,8 +115,8 @@ FKB:
 
 ---
 
-<!-- .slide: data-transition="zoom" -->
-Part 2:
+<!-- .slide: data-transition="zoom" data-background="#0D1CD1" -->
+Part II:
 # Drawing in the data
 
 ---
