@@ -39,7 +39,7 @@ First things first
 
 ---
 
-## Not so short, but sweet.. (1/2)
+## Not so short, but sweet... (1/2)
 
 You'll be familiar with QGIS, the leading Free and Open Source Software (FLOSS) Geographic Information System (GIS) application.
 
@@ -47,7 +47,7 @@ The guide covers importing and working on several kinds of data, and join data t
 
 ---
 
-## Not so short, but sweet.. (2/2)
+## Not so short, but sweet... (2/2)
 
 Through the usage of plugins, you are able to access the continuously expanding information in the OpenStreetMap database.
 
