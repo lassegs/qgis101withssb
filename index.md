@@ -1,3 +1,6 @@
+
+<!-- .slide: data-transition="zoom" data-background="#0D1CD1" -->
+
 # QGIS 101
 With a side dish of Statistics Norway
 
@@ -45,6 +48,7 @@ You'll be familiar with QGIS, the leading Free and Open Source Software (FLOSS) 
 
 The guide covers importing and working on several kinds of data, and join data that isn't georeferenced with data that is.
 
+
 ---
 
 ## Not so short, but sweet... (2/2)
@@ -67,9 +71,7 @@ You will also have learned how to make use of SSB Grid, not just as a static ima
 
 ---
 
-image of what you should see. Let everyone catch up.
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Equus_asinus_Kadzid%C5%82owo_001.jpg/640px-Equus_asinus_Kadzid%C5%82owo_001.jpg" />
+![QGIS](https://i.imgur.com/zFboISk.png)
 
 ---
 
@@ -83,9 +85,8 @@ Part I:
 
 ## Add some WFS layers (1/2)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Equus_asinus_Kadzid%C5%82owo_001.jpg/640px-Equus_asinus_Kadzid%C5%82owo_001.jpg" />
+<img src="https://i.imgur.com/qUFCAXU.png" /> <!-- .element height="90%" width="90%" -->
 
-<small>All images will be replaced with my own</small>
 
 ---
 
@@ -103,9 +104,6 @@ http://ogc.ssb.no/wms.ashx?service=wms&request=getcapabilities
 
 <small>Whichever layer, but I recommend 5km grid for performance. This tutorial goes on with population data. EPSG 32633 should be the projection.</small>
 
-FKB:
-
-*Did not work when i tested it. E-mail technical contact?*
 
 ---
 
@@ -147,19 +145,43 @@ Theory:
 
 ---
 
-<img src="https://38.media.tumblr.com/63b19d2fa98932419fb6553a1dfd0b1f/tumblr_mk981oqrW51s8spqco1_500.gif" />
+![Nojoin](https://38.media.tumblr.com/63b19d2fa98932419fb6553a1dfd0b1f/tumblr_mk981oqrW51s8spqco1_500.gif) <!-- .element height="80%" width="80%" -->
 
 ---
 
-## Join by attribute
+## Data links:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Equus_asinus_Kadzid%C5%82owo_001.jpg/640px-Equus_asinus_Kadzid%C5%82owo_001.jpg" />
+Grid shape (SSBgrid):
 
-<small>All images will be replaced with my own</small>
+https://www.ssb.no/natur-og-miljo/_attachment/101145?_ts=13d3e62d7d0
+
+
+
+Tabular data (SSB population 2017):
+
+https://folk.uio.no/lassegsa/r250m_web_2017_m.zip
 
 ---
 
-## Visualize the layer
+## Add to QGIS and join
+
+![Join](https://i.imgur.com/PdND2BP.png) <!-- .element height="90%" width="90%" -->
+
+---
+
+## Style the layer
+
+![Style](https://i.imgur.com/BwoSM2N.png) <!-- .element height="90%" width="90%" -->
+
+---
+
+## Congratulations
+
+You have imported a vector layer, performed a join with a tabular dataset and styled it.
+
+See Statistics Norway for more tabular datasets:
+
+https://www.ssb.no/natur-og-miljo/geodata
 
 ---
 
@@ -169,3 +191,72 @@ Part III:
 # Plugins
 
 ---
+
+<section data-background-iframe="https://minorua.github.io/qgis/plugins/qgis2threejs/examples/forest_basin/slope.html" data-background-interactive>
+
+</section>
+
+---
+
+We are going to hook into OpenStreetMap with "QuickOSM"
+
+---
+
+![Pluginstall](https://i.imgur.com/NaVmFsJ.png) <!-- .element height="90%" width="90%" -->
+
+---
+
+![QuickOSM](https://i.imgur.com/I7PYFFj.png) <!-- .element height="90%" width="90%" -->
+
+---
+
+## Vast amounts of data
+
+---
+
+<!-- .slide: data-transition="zoom" data-background="#0D1CD1" -->
+
+Part IV:
+# Geospatial analysis
+
+---
+
+* Select a station
+* Create new layer of selection with only one station
+* Create buffer around station
+* Intersect with Statistics Norway population
+* Count population inside Buffer
+
+---
+
+Select station and save layer as (UTM z33)
+
+![savelayer](https://i.imgur.com/5f0SFNl.png) <!-- .element height="90%" width="90%" -->
+
+---
+
+Create buffer
+
+![buffer](https://i.imgur.com/1kQJlzs.png) <!-- .element height="90%" width="90%" -->
+
+---
+
+Intersect
+
+![Intersect](https://i.imgur.com/h2Ok4Yd.png) <!-- .element height="90%" width="90%" -->
+
+---
+
+"r250m_web_2017_pop_tot" * ($area / 62500)
+![wrongnr](https://i.imgur.com/u8z4bos.png)
+
+
+---
+
+![Calculate](https://i.imgur.com/krfKpY8.png) <!-- .element height="90%" width="90%" -->
+
+---
+
+Summing up
+
+![sum](https://i.imgur.com/xyOmePb.png) <!-- .element height="90%" width="90%" -->
