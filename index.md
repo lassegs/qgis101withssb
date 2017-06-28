@@ -109,9 +109,16 @@ FKB:
 
 ---
 
-**Very good**. You now posses the ability to display large amounts of data through Web Map Servers (WMS). Norwegian data can be found here:
+## Rejoice
 
-## https://www.geonorge.no/
+You now posses the ability to display large amounts of data through Web Map Servers (WMS). Norwegian data can be found here:
+
+**https://www.geonorge.no/**
+
+---
+
+## Despair
+No way to style, manipulate, or anything.
 
 ---
 
@@ -149,5 +156,16 @@ Theory:
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Equus_asinus_Kadzid%C5%82owo_001.jpg/640px-Equus_asinus_Kadzid%C5%82owo_001.jpg" />
 
 <small>All images will be replaced with my own</small>
+
+---
+
+## Visualize the layer
+
+---
+
+<!-- .slide: data-transition="zoom" data-background="#0D1CD1" -->
+
+Part III:
+# Plugins
 
 ---
